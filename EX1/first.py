@@ -14,7 +14,7 @@ def timeDekorator(function):
 
 @timeDekorator
 def testFunction(firstNumber, secondNumber):
-    #time.sleep(1) # if time of executing is 0 then you have cool computer, than uncomment this line
+    #time.sleep(1) # if time of executing is 0 then you have cool computer, so uncomment this line
     return firstNumber + secondNumber
 
 
